@@ -4,7 +4,6 @@ import "./index.css";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter } from "react-router-dom";
 
 const client = new ApolloClient({
   uri: "https://rickandmortyapi.com/graphql",
